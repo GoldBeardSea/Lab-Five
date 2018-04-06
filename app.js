@@ -9,8 +9,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  var sumOne = (a + b);
-  return [ 'The sum of ' + a + ' and ' + b + ' is ' + sumOne + '.' ];
+  var sumOne = a + b;
+  return [ sumOne, 'The sum of ' + a + ' and ' + b + ' is ' + sumOne + '.' ];
 }
 
 // Here is the test for sum(); uncomment it to run it
